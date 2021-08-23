@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Roboto, "sans-serif";
+}
+
+:root {
+  --bg-primary: #60a5fa;
+  --bg-success: #34d399;
+  --bg-info: #9ca3af;
+  --bg-warning: #fbbf24;
+  --bg-error: #f87171;
+  --bg-light: #f3f4f6;
+  --bg-dark: #1f2937;
+
+  --alert-success-background: #d1fae5;
+  --alert-success-border: #10b981;
+  --alert-success-text: #065f46;
+
+  --alert-warning-background: #fde68a;
+  --alert-warning-border: #f59e0b;
+  --alert-warning-text: #92400e;
+
+  --alert-error-background: #fee2e2;
+  --alert-error-border: #ef4444;
+  --alert-error-text: #991b1b;
+
+  --alert-info-background: #f3f4f6;
+  --alert-info-border: #6b7280;
+  --alert-info-text: #1f2937;
+
+  --box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+
+  --b-rad-50: 50%;
+  --b-rad-05: 0.5em;
+  --b-rad-02: 0.2em;
+  --b-rad-1: 1em;
+}
